@@ -20,13 +20,19 @@ indent_mode=2
 [project]
 name=CoffeeTime
 base_path=/home/dexter/Development/Programming/web/CoffeeTime/CoffeeTime
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=70
 
 [files]
-current_page=-1
+current_page=3
+FILE_NAME_0=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Fstarwarsuniverse-entities%2Fsrc%2Fapp%2Fcustom%2FEntity.js;0;4
+FILE_NAME_1=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Fstarwarsuniverse-entities%2Fsrc%2Fapp%2Fcustom%2FStarWarsUniverse.js;0;4
+FILE_NAME_2=107;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Fstarwarsuniverse-starships%2Fsrc%2Fapp%2FApplication.js;0;4
+FILE_NAME_3=2951;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Fstarwarsuniverse-starships%2Fsrc%2Fapp%2Fcustom%2FStarWarsUniverse.js;0;4
+FILE_NAME_4=194;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Fstarwarsuniverse-starships%2Fsrc%2Fapp%2Fcustom%2FStarship.js;0;4
 
 [VTE]
 last_dir=/home/dexter
