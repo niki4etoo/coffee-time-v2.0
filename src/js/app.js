@@ -1,5 +1,15 @@
 import '../scss/app.scss';
 
 /* Your JS Code goes here */
-const coffeeList = document.getElementById("list-of-coffee-drinks");
 
+var coffeeList = {
+  "cappuccino": "Cappuccino",
+  "latte": "Latte",
+  "americano": "Americano",
+  "espresso": "Espresso"
+};
+
+for(var item of coffeeList){
+  console.log(item);
+
+}
