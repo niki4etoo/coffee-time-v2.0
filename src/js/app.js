@@ -7,5 +7,5 @@ const btn_orderDrink = document.getElementById('btn_orderCoffeeDrink');
 const output_result = document.getElementById('output_result');
 
 btn_orderDrink.addEventListener('click', function(){
-	output_result.textContent = "You made successfull order! Thanks :)");
+	output_result.textContent = "You made successfull order! Thanks :)";
 });
