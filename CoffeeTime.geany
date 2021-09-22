@@ -27,9 +27,15 @@ long_line_behaviour=1
 long_line_column=70
 
 [files]
-current_page=1
-FILE_NAME_0=2920;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Findex.html;0;4
-FILE_NAME_1=392;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fjs%2Fapp.js;0;4
+current_page=0
+FILE_NAME_0=558;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fsitemap.html;0;4
+FILE_NAME_1=504;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fbrewing.html;0;4
+FILE_NAME_2=448;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2FaboutUs.html;0;4
+FILE_NAME_3=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2FcontactUs.html;0;4
+FILE_NAME_4=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fprofile.html;0;4
+FILE_NAME_5=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Forder.html;0;4
+FILE_NAME_6=501;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Findex.html;0;4
+FILE_NAME_7=390;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fjs%2Fapp.js;0;4
 
 [VTE]
 last_dir=/home/dexter
