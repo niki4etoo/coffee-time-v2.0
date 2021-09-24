@@ -8,6 +8,8 @@ var coffeeList = {
   "espresso": "Espresso"
 };
 
+
+
 const btn_orderDrink = document.getElementById('btn_orderCoffeeDrink');
 const output_result = document.getElementById('output_result');
 
