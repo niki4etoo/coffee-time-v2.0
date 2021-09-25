@@ -2,8 +2,12 @@ export default class Coffee {
 	lists = {
 		mocca: "Mocca",
 		moccachino: "Moccachino",
-		latte: "Latte"
+		latte: "Latte",
+		americano: "Americano",
+		espresso: "Espresso"
 	};
+
+	
 
 	constructor(){
 		var coffeeList = document.getElementById("coffeeList");
@@ -13,3 +17,5 @@ export default class Coffee {
 	}
 
 }
+
+var coffee = new Coffee();

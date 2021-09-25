@@ -19,3 +19,4 @@ if(btn_orderDrink != null){
 	btn_orderDrink.addEventListener('click', function(){
 	output_result.textContent = "You made successfull order! Thanks :)";
 });
+}
