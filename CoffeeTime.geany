@@ -27,7 +27,13 @@ long_line_behaviour=1
 long_line_column=70
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=521;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Fsitemap.html;0;4
+FILE_NAME_1=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2FCoffeeTime%2Fsrc%2Findex.html;0;4
+FILE_NAME_2=303;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Ftask-92%2Fsrc%2Fjs%2FNotification.js;0;4
+FILE_NAME_3=553;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Ftask-92%2Fsrc%2Fjs%2FCard.js;0;4
+FILE_NAME_4=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Ftask-92%2Fsrc%2Fjs%2FApplication.js;0;4
+FILE_NAME_5=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2Fboom.dev%2Ftask-92%2Fsrc%2Fjs%2Futils.js;0;4
 
 [VTE]
 last_dir=/home/dexter
