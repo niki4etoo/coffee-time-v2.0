@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registration</title>
     <meta name="description" content="Coffee Drinks web application to offer different coffee drinks.">
     <meta name="keywords" content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,18 +34,21 @@
     <main>
 	<p style="text-align: center">
 		<a href="./index.html">Home</a> | 
-		<a href="./registration.html">No Registration</a> | 
+		<a href="./login.html">Login</a>
 		<a href="./categories.html">Categories</a> | 
 		<a href="./contactUs.html">Contact Us</a> | 
 		<a href="./aboutUs.html">About Us</a>
 	</p>
 	<hr />
-	  <p> Login form </p>
+	  <p> Registration form </p>
 	  <p>
-	  <form action="login.html" method="POST">
-		<input type="text" name="username" placeholder="Your username" required autofocus />
+	  <form action="registration.html" method="POST">
+		<input type="text" name="fname" placeholder="Your first name" autofocus />
+		<input type="text" name="lname" placeholder="Your second name"  />
+		<input type="text" name="username" placeholder="Your username" required />
 		<input type="password" name="password" placeholder="Your password" required />
-		<input type="submit" value="Login" />
+		<input type="password" name="password" placeholder="Repeat your password" required />
+		<input type="submit" value="Register" />
 	  </form>
 	  </p>
     </main>
