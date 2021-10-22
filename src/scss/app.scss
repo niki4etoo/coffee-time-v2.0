@@ -36,6 +36,20 @@ h3 {
 	font-family: "Ephesis", sans-serif;
 }
 
+navbar > p {
+	text-align: center;
+	width: 100%;
+}
+
+navbar > p > a {
+	padding: 0 10px 0 10px;
+}
+
+navbar > p > a:hover {
+	color: white;
+	background-color: black;
+}
+
 main > p > img {
 	padding: 10px;
 	margin: 0 auto;
