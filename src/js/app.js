@@ -1,10 +1,20 @@
 import '../scss/app.scss';
-import Coffee from './coffee.js';
 
-var coffee = new Coffee();
+import React from 'react';
 
-if(btn_orderDrink != null){
-	btn_orderDrink.addEventListener('click', function(){
-	output_result.textContent = "You made successfull order! Thanks :)";
-});
+class App extends React.Component {
+	
+	constructor(){
+		super();
+		
+	}
+	
+	render(){
+		return (
+			<div>is it working?</div>
+		);
+	}
+	
 }
+
+
