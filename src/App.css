@@ -1,17 +1,10 @@
 * {
- background-color: dimgray;
+ background-color: black;
 }
 
-.Main {
+.Main {	
 	text-align: center;
-	font-size: 42px;
-	letter-spacing: 3px;
-	word-spacing: 10px;
-	
-	margin: 20px;
-	padding: 20px;
-}
 
-.Main > h1 {
-	color: chocolate;
+	margin: 20px auto;
+	padding: 20px;
 }
