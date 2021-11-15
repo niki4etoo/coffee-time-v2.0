@@ -44,7 +44,6 @@ const Proceed = styled.div`
 	animation-name: ${proceedAnimation};
 	animation-duration: 1s;
 	animation-delay: 3s;
-	animation-direction: forward;
 	animation-fill-mode: forwards;
 	opacity: 0;	
 	
@@ -59,9 +58,6 @@ const Proceed = styled.div`
 		color: bisque;
 		text-shadow: 1px 1px 3px bisque;
 	}
-	
-	
-	
 `
 
 export default App;
