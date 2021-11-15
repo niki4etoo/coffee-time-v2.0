@@ -4,12 +4,20 @@ import styled, { keyframes } from 'styled-components';
 
 export default function Home() {
 	return (
+		<>
 		<HomeComponent>
 			<h1>Coffee Time</h1>
-			<nav>
-				
-			</nav>
 		</HomeComponent>
+		<Navigation>
+				<ul>
+					<li>Home</li>
+					<li>Login</li>
+					<li>Registration</li>
+					<li>Categories</li>
+					<li>About</li>
+				</ul>
+		</Navigation>
+		</>
 	);
 }
 
@@ -24,8 +32,9 @@ const HomeComponent = styled.div`
 	width: 70%;
 	margin: 10px auto;
 
-	filter: drop-shadow(0px 0px 8px chocolate);
-
+	filter: drop-shadow(0px 0px 12px chocolate);
+	background-color: chocolate;
+	
 	h1 {
 		animation-name: ${backgroundAnimation};
 		animation-duration: 1s;
@@ -45,8 +54,34 @@ const HomeComponent = styled.div`
 		
 		padding: 10px;
 	}
+`
+
+const Navigation = styled.nav`
+	margin-top: 30px;
+	background-color: black;
 	
-	nav {
-		margin-top: 30px;
+	width: 70%;
+	margin: 20px auto;
+	
+	filter: drop-shadow(0px 0px 5px chocolate);
+	
+	
+	ul {
+		display: flex;
+		justify-content: center;
+		
+		
+		list-style: none;
+		
+		background-color: chocolate;
+		color: white;
+		
+		font-size: 36px;
+		font-family: 'Petemoss', bold;
+	}
+	
+	ul li {
+		background-color: chocolate;
+		padding: 10px 60px 10px 30px;
 	}
 `
