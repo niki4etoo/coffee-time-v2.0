@@ -9,17 +9,7 @@ import {
 	Link
 } from 'react-router-dom';
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
+import styled, { keyframes } from 'styled-components';
 
 function App() {
   return (
@@ -27,39 +17,51 @@ function App() {
     <div className="Main">
 		<CoffeeLogo />
     </div>
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Routes>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Routes>
-      </div>
-    </Router>
+    <Proceed>
+		<Link to="/Home">Proceed</Link>
+    </Proceed>
+    
     </>
   );
 }
+
+const proceedAnimation = keyframes`
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+`
+
+const Proceed = styled.div`
+	margin-top: 50px;
+	
+	text-align: center;
+	text-decoration: none;
+	font-size: 42px;
+	font-family: 'Petemoss', cursive;
+	letter-spacing: 3px;
+	color: chocolate;
+	text-shadow: 2px 2px 5px white;
+	
+	animation-name: ${proceedAnimation};
+	animation-duration: 1s;
+	animation-delay: 3s;
+	animation-direction: forward;
+	animation-fill-mode: forwards;
+	opacity: 0;	
+	
+	a, a:visited {
+		text-decoration: none;
+		color: chocolate;
+		text-shadow: 2px 2px 5px white;
+	}
+	
+	a:hover {
+		text-decoration: none;
+		color: bisque;
+		text-shadow: 1px 1px 3px bisque;
+	}
+	
+	
+	
+`
 
 export default App;
