@@ -26,9 +26,7 @@ const animationCoffeeLogo = keyframes`
 `
 
 const CoffeeTitle = styled.h1`
-	@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
-	
-	
+	@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');	
 
 	animation-name: ${animationCoffeeTitle};
 	animation-duration: 2s;
