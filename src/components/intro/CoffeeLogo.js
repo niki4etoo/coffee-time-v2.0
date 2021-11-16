@@ -28,7 +28,7 @@ const animationCoffeeLogo = keyframes`
 const CoffeeTitle = styled.h1`
 
 	animation-name: ${animationCoffeeTitle};
-	animation-duration: 2s;
+	animation-duration: 0.7s;
 	animation-fill-mode: forwards;
 	
 	text-shadow: 4px 4px 12px bisque;
@@ -38,7 +38,11 @@ const CoffeeTitle = styled.h1`
 	font-size: 64px;
 	letter-spacing: 10px;
 	word-spacing: 80px;
-
+	
+	margin: 30px auto;
+	width: 55%;
+	
+	background-color: bisque;
 	color: chocolate;
 
 	transition-property: letter-spacing, word-spacing;
@@ -54,8 +58,8 @@ const CoffeeTitle = styled.h1`
 const CoffeeLogoImage = styled.img`
 	opacity: 0;
 	animation-name: ${animationCoffeeLogo};
-	animation-duration: 2s;
-	animation-delay: 1.3s;
+	animation-duration: 0.7s;
+	animation-delay: 0.2s;
 	animation-fill-mode: forwards;
 	
 	

@@ -31,19 +31,23 @@ const proceedAnimation = keyframes`
 `
 
 const Proceed = styled.div`
-	margin-top: 50px;
+	margin: 30px auto;
+	width: 300px;
 	
 	text-align: center;
 	text-decoration: none;
 	font-size: 42px;
 	font-family: 'Petemoss', cursive;
 	letter-spacing: 3px;
+	
+	background-color: bisque;
 	color: chocolate;
+	
 	text-shadow: 2px 2px 5px white;
 	
 	animation-name: ${proceedAnimation};
 	animation-duration: 1s;
-	animation-delay: 3s;
+	animation-delay: 0.8s;
 	animation-fill-mode: forwards;
 	opacity: 0;	
 	
@@ -53,9 +57,12 @@ const Proceed = styled.div`
 		text-shadow: 2px 2px 5px white;
 	}
 	
+	transition-property: letter-spacing, text-shadow;
+	transition-duration: 0.6s;
+	
 	a:hover {
 		text-decoration: none;
-		color: bisque;
+		letter-spacing: 2px;
 		text-shadow: 1px 1px 3px bisque;
 	}
 `
