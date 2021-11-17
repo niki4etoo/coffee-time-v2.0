@@ -58,8 +58,8 @@ const CoffeeTitle = styled.h1`
 const CoffeeLogoImage = styled.img`
 	opacity: 0;
 	animation-name: ${animationCoffeeLogo};
-	animation-duration: 0.7s;
-	animation-delay: 0.2s;
+	animation-duration: 0.9s;
+	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 	
 	
@@ -72,8 +72,6 @@ const CoffeeLogoImage = styled.img`
 	
 	:hover {
 		filter: drop-shadow(0px 0px 9px bisque);
-		width: 280px;
-		height: 280px;
 		cursor: pointer;
 		
 	}
