@@ -6,6 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
+import Login from './routes/Login';
+import Registration from './routes/Registration';
+import Categories from './routes/Categories';
+import About from './routes/About';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +17,10 @@ ReactDOM.render(
 	<Routes>
 		<Route path="/" element={<App />} />
 		<Route path="Home" element={<Home />} />
+		<Route path="Login" element={<Login />} />
+		<Route path="Registration" element={<Registration />} />
+		<Route path="Categories" element={<Categories />} />
+		<Route path="About" element={<About />} />
 	</Routes>
   </BrowserRouter>
   </React.StrictMode>,
