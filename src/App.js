@@ -14,13 +14,11 @@ import styled, { keyframes } from 'styled-components';
 function App() {
   return (
   <>
+  <Link to="/Home">
     <div className="Main">
 		<CoffeeLogo />
     </div>
-    <Proceed>
-		<Link to="/Home">Proceed</Link>
-    </Proceed>
-    
+    </Link>
     </>
   );
 }
@@ -32,7 +30,7 @@ const proceedAnimation = keyframes`
 
 const Proceed = styled.div`
 	margin: 30px auto;
-	width: 300px;
+	width: 200px;
 	
 	text-align: center;
 	text-decoration: none;
@@ -55,10 +53,10 @@ const Proceed = styled.div`
 		text-decoration: none;
 		color: chocolate;
 		text-shadow: 2px 2px 5px white;
+		
+		transition-property: letter-spacing, text-shadow;
+		transition-duration: 0.8s;
 	}
-	
-	transition-property: letter-spacing, text-shadow;
-	transition-duration: 0.6s;
 	
 	a:hover {
 		text-decoration: none;
