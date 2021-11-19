@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styled, { keyframes } from 'styled-components';
-import coffeeImageGIF from './images/GIF/coffee.gif';
-import coffeeImageGIF2 from './images/GIF/coffeeHeart.gif';
-import coffeeImageGIF3 from './images/GIF/coffeeTime2.gif';
-import coffeeImageGIF4 from './images/GIF/coffeeTime.gif';
+import styled from 'styled-components';
+import coffeeImage1 from './images/WEBP/coffee.webp';
+import coffeeImage2 from './images/WEBP/coffeeHeart.webp';
+import coffeeImage3 from './images/WEBP/coffeeTime2.webp';
+import coffeeImage4 from './images/WEBP/coffeeTime.webp';
 
 export default function HomeContainer(){
 	return (
@@ -14,7 +14,7 @@ export default function HomeContainer(){
 				<p>
 				Espresso coffee can be made with a wide variety of coffee beans and roast degrees.
 				</p>
-					<CoffeeImage src={coffeeImageGIF} width="300" height="300"></CoffeeImage>
+					<CoffeeImage src={coffeeImage1} width="300" height="300" />
 					<p>
 					Espresso is the most common way of making coffee in southern Europe,
 				  especially in Italy, Spain, Portugal, Switzerland, Southern France, Bulgaria, Greece, and in Australia.
@@ -23,7 +23,7 @@ export default function HomeContainer(){
 				  Outside of Italy, cappuccino is a coffee drink that today is typically composed of a single espresso shot and hot milk,
 				   with the surface topped with foamed milk. Cappuccinos are most often prepared with an espresso machine.
 				  </p>
-				  <CoffeeImage src={coffeeImageGIF3} width="300" height="300"></CoffeeImage>
+				  <CoffeeImage src={coffeeImage3} width="300" height="300" />
 				  <p>
 				   The espresso is poured into the bottom of the cup, followed by a similar amount of hot milk, which is prepared by heating
 				    and texturing the milk using the espresso machine steam wand. The top third of the drink consists of milk foam.
@@ -35,7 +35,7 @@ export default function HomeContainer(){
 					Cappuccino is an espresso-based coffee drink that originated in Austria with later development taking 
 					place in Italy, and is prepared with steamed milk foam.
 					</p>
-					<CoffeeImage src={coffeeImageGIF2} width="300" height="300"></CoffeeImage>
+					<CoffeeImage src={coffeeImage2} width="300" height="300" />
 					<p>
 					Variations of the drink involve the use of cream instead of milk,
 					 using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.
@@ -43,7 +43,7 @@ export default function HomeContainer(){
 					<p>Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to,
 					 but different flavor from, traditionally brewed coffee.
 					</p>
-					<CoffeeImage src={coffeeImageGIF4} width="300" height="300"></CoffeeImage>
+					<CoffeeImage src={coffeeImage4} width="300" height="300" />
 					<p>
 					 The strength of an Americano varies with the number of shots of espresso and the amount of water added.
 					</p>
@@ -53,20 +53,11 @@ export default function HomeContainer(){
 	);
 }
 
-const contentAnimation = keyframes`
-	0% { opacity: 0; }
-	100% { opacity: 1; }
-`
-
 const Container = styled.div`
 
-	opacity: 0;
-
-	animation-name: ${contentAnimation};
-	animation-duration: 1s;
-	animation-delay: 3s;
-	animation-fill-mode: forwards;
-
+	filter: drop-shadow(0px 0px 5px chocolate);
+	
+	letter-spacing: 2px;
 	font-size: 32px;
 	color: white;
 	
