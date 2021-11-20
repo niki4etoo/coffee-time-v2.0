@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 import coffeeImage1 from './images/WEBP/coffee.webp';
-import coffeeImage4 from './images/WEBP/coffeeTime.webp';
+import coffeeImage4 from './images/WEBP/coffeeHeart.webp';
 
 export default function HomeContainer(){
 	return (

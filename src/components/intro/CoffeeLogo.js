@@ -31,7 +31,7 @@ const CoffeeTitle = styled.h1`
 	animation-duration: 0.7s;
 	animation-fill-mode: forwards;
 	
-	text-shadow: 4px 4px 12px bisque;
+	text-shadow: 0px 0px 10px maroon;
 	
 	text-align: center;
 	font-family: 'Petemoss', cursive;
@@ -40,6 +40,7 @@ const CoffeeTitle = styled.h1`
 	word-spacing: 80px;
 	
 	margin: 30px auto;
+	padding: 10px 0px;
 	width: 55%;
 	
 	background-color: bisque;

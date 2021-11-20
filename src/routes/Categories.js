@@ -2,8 +2,8 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-
 import MainNavigation from '../components/MainNavigation';
+import CategoriesContainer from '../components/CategoriesContainer';
 
 export default function Categories() {
 	return (
@@ -12,6 +12,7 @@ export default function Categories() {
 			<h1>Categories</h1>
 		</HomeComponent>
 		<MainNavigation />
+		<CategoriesContainer />
 		</>
 	);
 }
