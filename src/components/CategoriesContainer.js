@@ -100,6 +100,8 @@ const Container = styled.div`
 	background-color: chocolate;
 	color: white;
 	
+	padding: 40px 0px;
+	
 	h1 {
 		text-align: center;
 		

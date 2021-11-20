@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import MainNavigation from '../components/MainNavigation';
+import FooterNavigation from '../components/FooterNavigation';
+
 import LoginForm from '../components/LoginForm';
 
 export default function Login() {
@@ -13,6 +15,7 @@ export default function Login() {
 		</HomeComponent>
 		<MainNavigation />
 		<LoginForm />
+		<FooterNavigation />
 		</>
 	);
 }

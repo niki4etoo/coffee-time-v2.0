@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export default function RegistrationForm() {
 	return (
 		<>
-		<Login>
+		<Registration>
 		 <Form action="" method="post">
 			<div>
 				<label for="uname"><b>Username</b></label>
@@ -39,15 +39,17 @@ export default function RegistrationForm() {
 				<button type="submit">Registration</button>
 			</div>
 		</Form>
-		</Login>
+		</Registration>
 		</>
 	);
 }
 
-const Login = styled.div`
+const Registration = styled.div`
 	width: 100%;
 	background-color: chocolate;
 	color: white;
+	
+	filter: drop-shadow(0px 0px 5px chocolate);
 `
 
 const Form = styled.form`
@@ -65,6 +67,7 @@ const Form = styled.form`
 	
 	text-align: center;
 	letter-spacing: 3px;
+	
 	div {
 		padding: 10px;
 	}
@@ -87,5 +90,10 @@ const Form = styled.form`
 		border: none;
 		border-radius: 5px;
 	}
+	
+	button:hover {
+		cursor: pointer;
+	}
+	
 `
 

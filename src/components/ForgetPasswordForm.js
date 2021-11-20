@@ -73,5 +73,9 @@ const Form = styled.form`
 		border: none;
 		border-radius: 5px;
 	}
+	
+	button:hover {
+		cursor: pointer;
+	}
 `
 

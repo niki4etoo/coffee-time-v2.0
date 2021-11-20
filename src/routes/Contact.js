@@ -5,16 +5,16 @@ import styled from 'styled-components';
 import MainNavigation from '../components/MainNavigation';
 import FooterNavigation from '../components/FooterNavigation';
 
-import CategoriesContainer from '../components/CategoriesContainer';
+import ContactContainer from '../components/ContactContainer';
 
-export default function Categories() {
+export default function Contact() {
 	return (
 		<>
 		<HomeComponent>
-			<h1>Categories</h1>
+			<h1>Contact</h1>
 		</HomeComponent>
 		<MainNavigation />
-		<CategoriesContainer />
+		<ContactContainer />
 		<FooterNavigation />
 		</>
 	);
