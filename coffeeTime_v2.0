@@ -20,20 +20,17 @@ indent_mode=2
 [project]
 name=coffeeTime_v2.0
 base_path=/home/dexter/Development/Programming/web/CoffeeTime/coffee-time-v2.0/src
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=70
 
 [files]
-current_page=4
-FILE_NAME_0=200;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FAbout.js;0;4
-FILE_NAME_1=205;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FCategories.js;0;4
-FILE_NAME_2=207;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FRegistration.js;0;4
-FILE_NAME_3=2716;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FHome.js;0;4
-FILE_NAME_4=250;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FLogin.js;0;4
-FILE_NAME_5=770;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Findex.js;0;4
-FILE_NAME_6=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2FApp.js;0;4
+current_page=0
+FILE_NAME_0=174;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Fcomponents%2FCategoriesContainer.js;0;4
+FILE_NAME_1=253;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FAbout.js;0;4
+FILE_NAME_2=358;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FCategories.js;0;4
 
 [VTE]
 last_dir=/home/dexter
