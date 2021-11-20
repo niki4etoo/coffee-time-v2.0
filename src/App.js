@@ -4,14 +4,24 @@ import CoffeeLogo from './components/intro/CoffeeLogo';
 
 import { Link } from 'react-router-dom';
 
+import styled from 'styled-components';
+
 export default function App() {
   return (
   <>
-  <Link to="/Home">
-    <div className="Main">
+    <Logo>
+    <Link to="/Home">
 		<CoffeeLogo />
-    </div>
-    </Link>
+	</Link>
+    </Logo>
     </>
   );
 }
+
+const Logo = styled.div`
+	text-align: center;
+
+	a, a:hover, a:visited {
+		text-decoration: none;
+	}
+`
