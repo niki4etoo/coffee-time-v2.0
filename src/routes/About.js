@@ -3,6 +3,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 import MainNavigation from '../components/MainNavigation';
+import FooterNavigation from '../components/FooterNavigation';
+
+import AboutContainer from '../components/AboutContainer';
 
 export default function About() {
 	return (
@@ -11,6 +14,8 @@ export default function About() {
 			<h1>About</h1>
 		</HomeComponent>
 		<MainNavigation />
+		<AboutContainer />
+		<FooterNavigation />
 		</>
 	);
 }
