@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import MainNavigation from '../components/MainNavigation';
+import FooterNavigation from '../components/FooterNavigation';
+
 import ForgetPasswordForm from '../components/ForgetPasswordForm';
 
 export default function ForgetPassword() {
@@ -13,6 +15,7 @@ export default function ForgetPassword() {
 		</HomeComponent>
 		<MainNavigation />
 		<ForgetPasswordForm />
+		<FooterNavigation />
 		</>
 	);
 }

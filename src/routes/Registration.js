@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import MainNavigation from '../components/MainNavigation';
+import FooterNavigation from '../components/FooterNavigation';
+
 import RegistrationForm from '../components/RegistrationForm';
 
 export default function Registration() {
@@ -13,6 +15,7 @@ export default function Registration() {
 		</HomeComponent>
 		<MainNavigation />
 		<RegistrationForm />
+		<FooterNavigation />
 		</>
 	);
 }

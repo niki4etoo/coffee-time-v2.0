@@ -11,6 +11,7 @@ import Registration from './routes/Registration';
 import Categories from './routes/Categories';
 import About from './routes/About';
 import ForgetPassword from './routes/ForgetPassword';
+import Contact from './routes/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
 		<Route path="Categories" element={<Categories />} />
 		<Route path="About" element={<About />} />
 		<Route path="ForgetPassword" element={<ForgetPassword />} />
+		<Route path="Contact" element={<Contact />} />
 	</Routes>
   </BrowserRouter>
   </React.StrictMode>,

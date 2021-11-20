@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import MainNavigation from '../components/MainNavigation';
+import FooterNavigation from '../components/FooterNavigation';
+
 import CategoriesContainer from '../components/CategoriesContainer';
 
 export default function Categories() {
@@ -13,6 +15,7 @@ export default function Categories() {
 		</HomeComponent>
 		<MainNavigation />
 		<CategoriesContainer />
+		<FooterNavigation />
 		</>
 	);
 }
