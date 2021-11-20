@@ -2,8 +2,6 @@ import React from 'react';
 
 import styled from 'styled-components';
 import coffeeImage1 from './images/WEBP/coffee.webp';
-import coffeeImage2 from './images/WEBP/coffeeHeart.webp';
-import coffeeImage3 from './images/WEBP/coffeeTime2.webp';
 import coffeeImage4 from './images/WEBP/coffeeTime.webp';
 
 export default function HomeContainer(){
@@ -23,7 +21,6 @@ export default function HomeContainer(){
 				  Outside of Italy, cappuccino is a coffee drink that today is typically composed of a single espresso shot and hot milk,
 				   with the surface topped with foamed milk. Cappuccinos are most often prepared with an espresso machine.
 				  </p>
-				  <CoffeeImage src={coffeeImage3} width="300" height="300" />
 				  <p>
 				   The espresso is poured into the bottom of the cup, followed by a similar amount of hot milk, which is prepared by heating
 				    and texturing the milk using the espresso machine steam wand. The top third of the drink consists of milk foam.
@@ -35,7 +32,6 @@ export default function HomeContainer(){
 					Cappuccino is an espresso-based coffee drink that originated in Austria with later development taking 
 					place in Italy, and is prepared with steamed milk foam.
 					</p>
-					<CoffeeImage src={coffeeImage2} width="300" height="300" />
 					<p>
 					Variations of the drink involve the use of cream instead of milk,
 					 using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.

@@ -2,45 +2,35 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
-
-export default function LoginForm() {
+export default function ForgetPasswordForm() {
 	return (
 		<>
-		<Login>
+		<ForgetPassword>
 		 <Form action="" method="post">
 			<div>
 				<label for="uname"><b>Username</b></label>
 			</div>			
 			<div>
-				<input type="text" placeholder="Enter Username" name="uname" required />
+				<input type="text" placeholder="Enter Username" name="uname" />
 			</div>
 
 			<div>
-				<label for="psw"><b>Password</b></label>
-			</div>
+				<label for="email"><b>Email</b></label>
+			</div>			
 			<div>
-				<input type="password" placeholder="Enter Password" name="psw" required />
-			</div>
-
-			<div>
-				<button type="submit">Login</button>
-				<label><input type="checkbox" checked="checked" name="remember" />Remember me</label>
+				<input type="email" placeholder="Enter Email" name="email" required />
 			</div>
 
 			<div>
-				<button type="button" class="cancelbtn">Cancel</button>
-			</div>
-			<div>
-				<span class="psw">Forgot <Link to="/ForgetPassword">password?</Link></span>
+				<button type="submit">Send</button>
 			</div>
 		</Form>
-		</Login>
+		</ForgetPassword>
 		</>
 	);
 }
 
-const Login = styled.div`
+const ForgetPassword = styled.div`
 	width: 100%;
 	background-color: chocolate;
 	color: white;
