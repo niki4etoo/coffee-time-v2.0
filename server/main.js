@@ -10,13 +10,8 @@ app.use(bodyParser.urlencoded({ extended: true, }));
 
 app.get('/', (request, response) => {
 	
-	const userAgent = request.get('User-Agent');
-	const readableState = request._readableState;
-	
 	response.json({
-		info: 'Node.js, Express and Postgres API',
-		userAgent: userAgent,
-		readableState: readableState,
+		info: 'Node.js, Express and Postgres API'
 	});
 });
 
@@ -26,7 +21,7 @@ app.post('/users', db.createUser);
 app.put('/users/:id', db.updateUser);
 app.delete('/users/:id', db.deleteUser);
 
-const port = 3000, host = "localhost";
+const port = 3001, host = "localhost";
 
 app.listen(port, () => {
 	console.log(`The server is listening on ${host}:${port}`);

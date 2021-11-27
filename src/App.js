@@ -1,21 +1,36 @@
 import './App.css';
 
 import CoffeeLogo from './components/intro/CoffeeLogo';
-
 import { Link } from 'react-router-dom';
-
 import styled from 'styled-components';
 
 export default function App() {
-  return (
-  <>
-    <Logo>
-    <Link to="/Home">
+	
+	
+	fetch('/users', {
+			  headers: { 
+				'Content-Type': 'application/json',
+				'Accept': 'application/json'
+			   }
+			})
+		.then(response => {
+				if(response.status === 200){
+					return response.json();
+				}
+		})
+		.then(data => {
+			console.log(data);
+		});
+	
+	return (
+	<>
+	<Logo>
+	<Link to="/Home">
 		<CoffeeLogo />
 	</Link>
-    </Logo>
-    </>
-  );
+	</Logo>
+	</>
+	);
 }
 
 const Logo = styled.div`
