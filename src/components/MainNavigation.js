@@ -44,6 +44,7 @@ const Navigation = styled.nav`
 	ul li {
 		background-color: chocolate;
 		padding: 10px 60px 10px 30px;
+		text-shadow: 0px 0px 2px black;
 		
 		cursor: pointer;
 		

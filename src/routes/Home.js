@@ -37,7 +37,7 @@ const HomeComponent = styled.div`
 		letter-spacing: 5px;
 		word-spacing: 15px;
 		
-		text-shadow: 0px 0px 2px white;
+		text-shadow: 0px 0px 2px black;
 		
 		padding: 10px;
 		width: 100%;
