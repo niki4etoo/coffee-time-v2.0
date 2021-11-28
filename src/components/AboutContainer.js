@@ -35,10 +35,10 @@ const Container = styled.div`
 	h1 {
 		text-indent: 30px;
 		font-size: 36px;
-		letter-spacing: 20px;
+		letter-spacing: 2px;
 		word-spacing: 5px;
 		
-		color: green;
+		color: white;
 		
 		padding: 10px;
 	}
