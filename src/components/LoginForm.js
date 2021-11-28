@@ -10,14 +10,14 @@ export default function LoginForm() {
 		<Login>
 		 <Form action="" method="post">
 			<div>
-				<label for="uname"><b>Username</b></label>
+				<label htmlFor="uname"><b>Username</b></label>
 			</div>			
 			<div>
 				<input type="text" placeholder="Enter Username" name="uname" required />
 			</div>
 
 			<div>
-				<label for="psw"><b>Password</b></label>
+				<label htmlFor="psw"><b>Password</b></label>
 			</div>
 			<div>
 				<input type="password" placeholder="Enter Password" name="psw" required />
@@ -29,10 +29,10 @@ export default function LoginForm() {
 			</div>
 
 			<div>
-				<button type="button" class="cancelbtn">Cancel</button>
+				<button type="button" className="cancelbtn">Cancel</button>
 			</div>
 			<div>
-				<span class="psw">Forgot <Link to="/ForgetPassword">password?</Link></span>
+				<span className="psw">Forgot <Link to="/ForgetPassword">password?</Link></span>
 			</div>
 		</Form>
 		</Login>
