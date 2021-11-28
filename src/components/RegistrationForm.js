@@ -45,9 +45,13 @@ export default function RegistrationForm() {
 }
 
 const Registration = styled.div`
+	font-family: 'Estonia', cursive;
+	font-weight: 800;
+
 	width: 100%;
 	background-color: chocolate;
 	color: white;
+	text-shadow: 0px 0px 2px black;
 	
 	filter: drop-shadow(0px 0px 5px chocolate);
 `

@@ -49,13 +49,16 @@ export default function HomeContainer(){
 	);
 }
 
-const Container = styled.div`
-
+const Container = styled.div`	
+	font-family: 'Estonia', cursive;
+	font-weight: 900;
+	
 	filter: drop-shadow(0px 0px 5px chocolate);
 	
 	letter-spacing: 2px;
 	font-size: 32px;
 	color: white;
+	text-shadow: 0px 0px 2px black;
 	
 	background-color: chocolate;
 	

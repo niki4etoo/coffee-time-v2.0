@@ -22,7 +22,9 @@ fetch('/users/Elaine', {
 			console.log("email: " + d.email);
 			
 		}
-	});
+	}).catch(error => {
+			console.log(error);
+		});
 
 export default function App() {
 	
