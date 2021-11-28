@@ -16,7 +16,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/users', db.getUsers);
-app.get('/users/:id', db.getUserById);
+app.get('/users/:criteria', db.getUserByCriteria);
 app.post('/users', db.createUser);
 app.put('/users/:id', db.updateUser);
 app.delete('/users/:id', db.deleteUser);

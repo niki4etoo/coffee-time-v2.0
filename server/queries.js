@@ -16,16 +16,26 @@ const getUsers = (request, response) => {
 	});
 }
 
-const getUserById = (request, response) => {
-	const id = parseInt(request.params.id);
+const getUserByCriteria = (request, response) => {
+	const id = parseInt(request.params.criteria);
 	
-	pool.query('SELECT * FROM users WHERE id = $1', [id], (error, results) => {
-		if(error){
-			throw error;
-		}
+	if(Number.isInteger(id)) {
+		pool.query('SELECT * FROM users WHERE id = $1', [id], (error, results) => {
+			if(error){
+				throw error;
+			}
+			
+			response.status(200).json(results.rows);
+		});
+	} else {
+		const name = request.params.criteria;
 		
-		response.status(200).json(results.rows);
-	});
+		pool.query('SELECT * FROM users WHERE name= $1', [name], (error, results) => {
+			if(error) throw  error;
+			
+			response.status(200).json(results.rows);
+		});
+	}
 }
 
 const createUser = (request, response) => {
@@ -59,7 +69,7 @@ const deleteUser = (request, response) => {
 
 module.exports = {
 	getUsers,
-	getUserById,
+	getUserByCriteria,
 	createUser,
 	updateUser,
 	deleteUser,
