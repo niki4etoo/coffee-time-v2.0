@@ -1,95 +1,48 @@
-import React from 'react';
-
-import styled from 'styled-components';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
 import { Link } from 'react-router-dom';
 
+import '../css/container.css';
+
 export default function LoginForm() {
+	
+	useEffect(() => {
+			gsap.to('.container', { left: 0, duration: 1, delay: 0.25 });
+		}, []);
+	
 	return (
 		<>
-		<Login>
-		 <Form action="" method="post">
-			<div>
-				<label htmlFor="uname"><b>Username</b></label>
-			</div>			
-			<div>
-				<input type="text" placeholder="Enter Username" name="uname" required />
-			</div>
+		<div className="container">
+			<form action="" method="post">
+				<div>
+					<label htmlFor="uname"><b>Username</b></label>
+				</div>			
+				<div>
+					<input type="text" placeholder="Enter Username" name="uname" required />
+				</div>
 
-			<div>
-				<label htmlFor="psw"><b>Password</b></label>
-			</div>
-			<div>
-				<input type="password" placeholder="Enter Password" name="psw" required />
-			</div>
+				<div>
+					<label htmlFor="psw"><b>Password</b></label>
+				</div>
+				<div>
+					<input type="password" placeholder="Enter Password" name="psw" required />
+				</div>
 
-			<div>
-				<button type="submit">Login</button>
-				<label><input type="checkbox" name="remember" />Remember me</label>
-			</div>
+				<div>
+					<button type="submit">Login</button>
+					<label><input type="checkbox" name="remember" />Remember me</label>
+				</div>
 
-			<div>
-				<button type="button" className="cancelbtn">Cancel</button>
-			</div>
-			<div>
-				<span className="psw">Forgot <Link to="/ForgetPassword">password?</Link></span>
-			</div>
-		</Form>
-		</Login>
+				<div>
+					<button type="button" className="cancelbtn">Cancel</button>
+				</div>
+				<div>
+					<span className="psw">Forgot <Link to="/ForgetPassword">password?</Link></span>
+				</div>
+			</form>
+		</div>
 		</>
 	);
 }
-
-const Login = styled.div`
-	font-family: 'Estonia', cursive;
-	font-weight: 800;
-
-	width: 100%;
-	background-color: chocolate;
-	color: white;
-	text-shadow: 0px 0px 2px black;
-`
-
-const Form = styled.form`
-	
-	font-size: 32px;
-	
-	margin: 0px auto;
-	width: 40%;
-	
-	padding: 15px;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	
-	text-align: center;
-	letter-spacing: 3px;
-	div {
-		padding: 10px;
-	}
-	
-	input {
-		font-family: 'Petemoss', cursive;
-		font-size: 28px;
-		letter-spacing: 3px;
-	}
-	
-	button {
-		background-color: maroon;
-		color: white;
-		
-		font-family: 'Petemoss', cursive;
-		font-size: 32px;
-		
-		padding: 5px 30px;
-		letter-spacing: 3px;
-		border: none;
-		border-radius: 5px;
-	}
-	
-	button:hover {
-		cursor: pointer;
-	}
-`
 
