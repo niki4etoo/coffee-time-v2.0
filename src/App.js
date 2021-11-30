@@ -30,11 +30,11 @@ export default function App() {
 	
 	return (
 	<>
-	<Logo>
-	<Link to="/Home">
-		<CoffeeLogo />
-	</Link>
-	</Logo>
+		<Logo>
+		<Link to="/Home">
+			<CoffeeLogo />
+		</Link>
+		</Logo>
 	</>
 	);
 }

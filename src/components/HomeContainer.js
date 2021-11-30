@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-import styled from 'styled-components';
+import '../css/HomeContainer.css';
+
 import coffeeImage1 from './images/WEBP/coffee.webp';
 import coffeeImage4 from './images/WEBP/coffeeHeart.webp';
 
+import { gsap } from 'gsap';
+
 export default function HomeContainer(){
+	
+	useEffect(() => {
+		gsap.to(".container", { left: 0, duration: 1, delay: 0.25 });
+	}, []);
+	
 	return (
 		<>
-			<Container>
-				<Left>
+			<div className="container">
+				<div className="left">
 				<p>
 				Espresso coffee can be made with a wide variety of coffee beans and roast degrees.
 				</p>
-					<CoffeeImage src={coffeeImage1} width="300" height="300" />
+					<img src={coffeeImage1} width="300" height="300" alt="espresso coffee" />
 					<p>
 					Espresso is the most common way of making coffee in southern Europe,
 				  especially in Italy, Spain, Portugal, Switzerland, Southern France, Bulgaria, Greece, and in Australia.
@@ -26,8 +34,8 @@ export default function HomeContainer(){
 				    and texturing the milk using the espresso machine steam wand. The top third of the drink consists of milk foam.
 				     This foam can be decorated with artistic drawings made with the same milk, called latte art.
 				  </p>
-				</Left>
-				<Right>
+				</div>
+				<div className="right">
 					<p>
 					Cappuccino is an espresso-based coffee drink that originated in Austria with later development taking 
 					place in Italy, and is prepared with steamed milk foam.
@@ -39,62 +47,12 @@ export default function HomeContainer(){
 					<p>Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to,
 					 but different flavor from, traditionally brewed coffee.
 					</p>
-					<CoffeeImage src={coffeeImage4} width="300" height="300" />
+					<img src={coffeeImage4} width="300" height="300" alt="coffee with foam" />
 					<p>
 					 The strength of an Americano varies with the number of shots of espresso and the amount of water added.
 					</p>
-				</Right>
-			</Container>
+				</div>
+			</div>
 		</>
 	);
 }
-
-const Container = styled.div`	
-	font-family: 'Estonia', cursive;
-	font-weight: 900;
-	
-	filter: drop-shadow(0px 0px 5px chocolate);
-	
-	letter-spacing: 2px;
-	font-size: 32px;
-	color: white;
-	text-shadow: 0px 0px 2px black;
-	
-	background-color: chocolate;
-	
-	display: flex;
-	justify-content: space-around;
-`
-
-const Left = styled.div`
-	margin: 10px;
-	width: 80%;
-	p {
-		text-indent: 20px;
-	}
-`
-
-const Right = styled.div`
-	margin: 10px;
-	text-align: right;
-	width: 80%;
-	p {
-		text-indent: 20px;
-	}
-`
-
-const CoffeeImage = styled.img`
-	margin: 20px 20px;
-	
-	filter: drop-shadow(0px 0px 18px bisque);
-	
-	transition-property: filter;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in;
-	
-	:hover {
-		filter: drop-shadow(0px 0px 9px bisque);
-		cursor: pointer;
-		
-	}
-`
