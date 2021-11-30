@@ -2,6 +2,8 @@
 	display: flex;
 	justify-content: space-around;
 
+	border-radius: 30px;
+
 	position: relative;
 	right: -150%;
 
@@ -21,6 +23,8 @@
 .categories {
 	position: relative;
 	right: -100%;
+
+	border-radius: 30px;
 
 	font-family: 'Estonia', cursive;
 	font-weight: 800;
@@ -44,6 +48,8 @@
 .about {
 	display: grid;
 	justify-content: center;
+
+	border-radius: 30px;
 
 	position: relative;
 	right: -100%;
