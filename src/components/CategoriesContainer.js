@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
-import styled from 'styled-components';
+import '../css/container.css';
 
 import espresso1 from './images/drinks/espresso1.webp';
 import espresso2 from './images/drinks/espresso2.webp';
@@ -19,159 +20,83 @@ import icedcoffee2 from './images/drinks/icedcoffee2.webp';
 import icedcoffee3 from './images/drinks/icedcoffee3.webp';
 
 export default function CategoriesContainer(){
+	
+	useEffect(() => {
+		gsap.to(".categories", { left: 0, duration: 1, delay: 0.25 });
+	}, []);
+	
 	return (
 		<>
-			<Container>
+			<div className="categories">
 				<h1>Hot Drinks</h1>
-				<CardContainer>
-					<Card>
+				<div className="cards">
+					<div className="card">
 						<img src={espresso1} alt="espresso1" />
 						<h1>Espresso</h1>
 						<p>There are several cups of espresso you can buy now.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={espresso2} alt="espresso2" />
 						<h1>Espresso</h1>
 						<p>There are several cups of espresso you can buy now.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={espresso3} alt="espresso3" />
 						<h1>Espresso</h1>
 						<p>There are several cups of espresso you can buy now.</p>
-					</Card>
+					</div>
 					
-					<Card>
+					<div className="card">
 						<img src={cappuccino1} alt="cappuccino1" />
 						<h1>Cappuccino</h1>
 						<p>Cappuccino now is limited offer. Buy it now.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={cappuccino2} alt="cappuccino2" />
 						<h1>Cappuccino</h1>
 						<p>Cappuccino now is limited offer. Buy it now.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={cappuccino3} alt="cappuccino3" />
 						<h1>Cappuccino</h1>
 						<p>Cappuccino now is limited offer. Buy it now.</p>
-					</Card>
-					</CardContainer>
+					</div>
+				</div>
 					<h1>Cold Drinks</h1>
-					<CardContainer>
-					<Card>
+				<div className="cards">
+					<div className="card">
 						<img src={frappe1} alt="frappe1" />
 						<h1>Frappe</h1>
 						<p>The coffee drink named "Frappe" is the best iced coffee.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={frappe2} alt="frappe2" />
 						<h1>Frappe</h1>
 						<p>The coffee drink named "Frappe" is the best iced coffee.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={frappe3} alt="frappe3" />
 						<h1>Frappe</h1>
 						<p>The coffee drink named "Frappe" is the best iced coffee.</p>
-					</Card>
+					</div>
 					
-					<Card>
+					<div className="card">
 						<img src={icedcoffee1} alt="icedcoffee1" />
 						<h1>Iced Coffee</h1>
 						<p>Iced coffee drink with different pastries.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={icedcoffee2} alt="icedcoffee2" />
 						<h1>Iced Coffee</h1>
 						<p>Iced coffee drink with different pastries.</p>
-					</Card>
-					<Card>
+					</div>
+					<div className="card">
 						<img src={icedcoffee3} alt="icedcoffee3" />
 						<h1>Iced Coffee</h1>
 						<p>Iced coffee drink with different pastries.</p>
-					</Card>
-				</CardContainer>
-			</Container>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 }
-
-const Container = styled.div`
-	font-family: 'Estonia', cursive;
-	font-weight: 800;
-
-	width: 100%;
-	background-color: chocolate;
-	color: white;
-	text-shadow: 0px 0px 2px black;
-	
-	padding: 40px 0px;
-	
-	h1 {
-		text-align: center;
-		
-		padding: 10px;
-		
-		font-size: 36px;
-		letter-spacing: 3px;
-		word-spacing: 10px;
-	}
-`
-
-const CardContainer = styled.div`
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	grid-gap: 30px;
-	
-	padding: 10px;
-	
-	justify-content: space-evenly;
-	align-items: center;
-`
-
-const Card = styled.div`
-	
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	background-color: maroon;
-	color: white;
-	
-	border-radius: 15px;
-	
-	justify-content: center;
-	align-items: center;
-	
-	filter: drop-shadow(0px 5px 12px bisque);
-	
-	transition-property: filter;
-	transition-duration: 0.5s;
-	
-	:hover {
-		filter: drop-shadow(0px 2px 6px darkblue);
-		cursor: pointer;
-	}
-	
-	img {
-		padding: 10px;
-		width: 200px;
-		height: 200px;
-		max-width: 200px;
-		max-height: 200px;
-	}
-	
-	h1 {
-		font-size: 36px;
-		letter-spacing: 5px;
-		padding: 0px;
-		margin: 0px;
-	}
-	
-	p {
-		padding: 0px 10px;
-		font-size: 28px;
-		letter-spacing: 2px;
-	}
-`
-
-

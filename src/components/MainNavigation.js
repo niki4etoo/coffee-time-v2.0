@@ -22,7 +22,6 @@ export default function MainNavigation(){
 	);
 }
 
-
 const Navigation = styled.nav`
 	
 	margin: 20px auto;

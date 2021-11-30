@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
 import '../css/Header.css';
 
@@ -7,7 +8,10 @@ import FooterNavigation from '../components/FooterNavigation';
 
 import CategoriesContainer from '../components/CategoriesContainer';
 
+
+
 export default function Categories() {
+	
 	return (
 		<>
 		<div className="header">

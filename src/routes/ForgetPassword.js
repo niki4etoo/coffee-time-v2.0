@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
 import '../css/Header.css';
 
@@ -8,6 +9,7 @@ import FooterNavigation from '../components/FooterNavigation';
 import ForgetPasswordForm from '../components/ForgetPasswordForm';
 
 export default function ForgetPassword() {
+	
 	return (
 		<>
 		<div className="header">

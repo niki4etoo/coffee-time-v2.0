@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import '../css/HomeContainer.css';
+import '../css/container.css';
 
 import coffeeImage1 from './images/WEBP/coffee.webp';
 import coffeeImage4 from './images/WEBP/coffeeHeart.webp';
