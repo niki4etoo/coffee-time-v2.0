@@ -1,6 +1,6 @@
 # Getting Started with Creating Coffee Time App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Link to the [site](https://vigorous-johnson-ea5376.netlify.app/)
 
 ## Available Scripts
 
