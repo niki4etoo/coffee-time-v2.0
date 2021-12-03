@@ -1,4 +1,4 @@
-# Getting Started with Creating [Coffee Time](https://vigorous-johnson-ea5376.netlify.app/) App
+# Getting Started with Creating [Coffee Time](https://vigorous-johnson-ea5376.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Link to the [site](https://vigorous-johnson-ea5376.netlify.app/)
 
