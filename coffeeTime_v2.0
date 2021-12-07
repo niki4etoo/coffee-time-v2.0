@@ -27,7 +27,16 @@ long_line_behaviour=1
 long_line_column=70
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FAbout.js;0;4
+FILE_NAME_1=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FCategories.js;0;4
+FILE_NAME_2=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FContact.js;0;4
+FILE_NAME_3=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FForgetPassword.js;0;4
+FILE_NAME_4=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FHome.js;0;4
+FILE_NAME_5=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FLogin.js;0;4
+FILE_NAME_6=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Froutes%2FRegistration.js;0;4
+FILE_NAME_7=0;CSS;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Fcss%2Fcontainer.css;0;4
+FILE_NAME_8=0;CSS;0;EUTF-8;1;1;0;%2Fhome%2Fdexter%2FDevelopment%2FProgramming%2Fweb%2FCoffeeTime%2Fcoffee-time-v2.0%2Fsrc%2Fcss%2FHeader.css;0;4
 
 [VTE]
 last_dir=/home/dexter
