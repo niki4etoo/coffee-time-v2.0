@@ -22,6 +22,8 @@
 	width: 100%;
 	margin: 0px auto;
 	
+	border-radius: 20px;
+	
 	transition-property: letter-spacing, text-shadow;
 	transition-duration: 0.5s;
 }

@@ -1,0 +1,40 @@
+nav {
+	margin: 20px auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	
+	filter: drop-shadow(0px 0px 5px chocolate);
+	list-style: none;
+	
+	background-color: chocolate;
+	color: white;
+	
+	border-radius: 20px;
+	
+	font-size: 48px;
+	font-family: 'Petemoss', bold;
+}
+
+nav ul li {
+	background-color: chocolate;
+	padding: 10px 60px 10px 30px;
+	text-shadow: 0px 0px 2px black;
+	
+	cursor: pointer;
+	
+	transition-property: text-shadow, letter-spacing;
+	transition-duration: 0.6s;
+}
+
+nav a, a:hover, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	text-shadow: 0px 0px 5px white;
+	letter-spacing: 2px;
+}
