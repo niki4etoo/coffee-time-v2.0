@@ -21,6 +21,10 @@
 	100% { opacity: 1; transofrm: translateY(0px); }
 }
 
+.logoTitle {
+	filter: drop-shadow(0px 0px 10px bisque);
+}
+
 .logoTitle h1 {
 
 	animation-name: animCoffeeTitle;
@@ -35,22 +39,28 @@
 	letter-spacing: 10px;
 	word-spacing: 80px;
 	
+	border-radius: 50%;
+	
 	margin: 30px auto;
-	padding: 10px 0px;
+	padding: 40px 0px;
 	width: 55%;
 	
 	background-color: bisque;
 	color: chocolate;
 
-	transition-property: letter-spacing, word-spacing;
+	transition-property: filter, letter-spacing, word-spacing;
 	transition-duration: 1s;
+	transition-timing-function: ease-in;
 }
 
 .logoTitle h1:hover {
 		letter-spacing: 5px;
 		word-spacing: 40px;
 		cursor: pointer;
+		
+		filter: drop-shadow(0px 0px 30px bisque);
 }
+
 
 #coffeeLogo img {
 	opacity: 0;
@@ -59,7 +69,9 @@
 	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 	
-	filter: drop-shadow(0px 0px 18px bisque);
+	border-radius: 100%;
+	
+	filter: drop-shadow(0px 0px 10px bisque);
 	
 	transition-property: filter, width, height;
 	transition-duration: 0.5s;
@@ -67,6 +79,6 @@
 }
 
 #coffeeLogo img:hover {
-	filter: drop-shadow(0px 0px 9px bisque);
+	filter: drop-shadow(0px 0px 30px bisque);
 	cursor: pointer;
 }
