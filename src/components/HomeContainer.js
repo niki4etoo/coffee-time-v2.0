@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import '../css/container.css';
 
-import coffeeImage1 from './images/WEBP/coffee.webp';
+import coffeeImage1 from './images/GIF/coffee.gif';
 import coffeeImage4 from './images/WEBP/coffeeHeart.webp';
 
 import { gsap } from 'gsap';
@@ -20,7 +20,7 @@ export default function HomeContainer(){
 				<p>
 				Espresso coffee can be made with a wide variety of coffee beans and roast degrees.
 				</p>
-					<img src={coffeeImage1} width="300" height="300" alt="espresso coffee" />
+					<img src={coffeeImage1} id="espressoCoffeeGIF" width="366" height="480" alt="espresso coffee" />
 					<p>
 					Espresso is the most common way of making coffee in southern Europe,
 				  especially in Italy, Spain, Portugal, Switzerland, Southern France, Bulgaria, Greece, and in Australia.
