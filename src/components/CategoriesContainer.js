@@ -32,13 +32,13 @@ export default function CategoriesContainer(){
 				<div className="cards">
 					<div className="card">
 						<img src={espresso1} alt="espresso1" />
-						<h1>Espresso</h1>
-						<p>There are several cups of espresso you can buy now.</p>
+						<h1>Mocha</h1>
+						<p>There are several cups of mocha you can buy now.</p>
 					</div>
 					<div className="card">
 						<img src={espresso2} alt="espresso2" />
-						<h1>Espresso</h1>
-						<p>There are several cups of espresso you can buy now.</p>
+						<h1>Doppio</h1>
+						<p>There are several cups of doppio you can buy now.</p>
 					</div>
 					<div className="card">
 						<img src={espresso3} alt="espresso3" />
@@ -48,8 +48,8 @@ export default function CategoriesContainer(){
 					
 					<div className="card">
 						<img src={cappuccino1} alt="cappuccino1" />
-						<h1>Cappuccino</h1>
-						<p>Cappuccino now is limited offer. Buy it now.</p>
+						<h1>Con Panna</h1>
+						<p>Con Panna now is limited offer. Buy it now.</p>
 					</div>
 					<div className="card">
 						<img src={cappuccino2} alt="cappuccino2" />
@@ -58,8 +58,8 @@ export default function CategoriesContainer(){
 					</div>
 					<div className="card">
 						<img src={cappuccino3} alt="cappuccino3" />
-						<h1>Cappuccino</h1>
-						<p>Cappuccino now is limited offer. Buy it now.</p>
+						<h1>Cappuccino Heart</h1>
+						<p>Cappuccino Heart now is limited offer. Buy it now.</p>
 					</div>
 				</div>
 					<h1>Cold Drinks</h1>
@@ -71,13 +71,13 @@ export default function CategoriesContainer(){
 					</div>
 					<div className="card">
 						<img src={frappe2} alt="frappe2" />
-						<h1>Frappe</h1>
-						<p>The coffee drink named "Frappe" is the best iced coffee.</p>
+						<h1>Frappe Beans</h1>
+						<p>The coffee drink named "Frappe Beans" is the best iced coffee.</p>
 					</div>
 					<div className="card">
 						<img src={frappe3} alt="frappe3" />
-						<h1>Frappe</h1>
-						<p>The coffee drink named "Frappe" is the best iced coffee.</p>
+						<h1>Frappe Sweety</h1>
+						<p>The coffee drink named "Frappe Sweety" is the best iced coffee.</p>
 					</div>
 					
 					<div className="card">
@@ -87,13 +87,13 @@ export default function CategoriesContainer(){
 					</div>
 					<div className="card">
 						<img src={icedcoffee2} alt="icedcoffee2" />
-						<h1>Iced Coffee</h1>
-						<p>Iced coffee drink with different pastries.</p>
+						<h1>Coffee with Flowers</h1>
+						<p>Iced coffee drink and some flowers with different pastries.</p>
 					</div>
 					<div className="card">
 						<img src={icedcoffee3} alt="icedcoffee3" />
-						<h1>Iced Coffee</h1>
-						<p>Iced coffee drink with different pastries.</p>
+						<h1>KitKat Coffee</h1>
+						<p>Kit Kat and iced coffee drink with different pastries.</p>
 					</div>
 				</div>
 			</div>
